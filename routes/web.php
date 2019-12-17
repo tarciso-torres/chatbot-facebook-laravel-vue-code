@@ -20,5 +20,5 @@ Route::get('/', function () {
 Route::prefix('bot')
     ->group(function () {
         Route::get('/webhook', 'BotController@subscribe');
-        Route::get('/webhook', 'BotController@receiveMessage');
+        Route::post('/webhook', 'BotController@receiveMessage');
     });
