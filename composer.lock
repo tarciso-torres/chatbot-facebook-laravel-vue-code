@@ -3144,17 +3144,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tarciso-torres/code-facebook-chatbot-sdk.git",
-                "reference": "e0b7d425c7aeda78b72efdd937395697bfbe7827"
+                "reference": "1abb2d78183ab3e09ea23fd1c4bac0e314ae32fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tarciso-torres/code-facebook-chatbot-sdk/zipball/e0b7d425c7aeda78b72efdd937395697bfbe7827",
-                "reference": "e0b7d425c7aeda78b72efdd937395697bfbe7827",
+                "url": "https://api.github.com/repos/tarciso-torres/code-facebook-chatbot-sdk/zipball/1abb2d78183ab3e09ea23fd1c4bac0e314ae32fc",
+                "reference": "1abb2d78183ab3e09ea23fd1c4bac0e314ae32fc",
                 "shasum": ""
             },
             "require": {
                 "guzzlehttp/guzzle": "^6.5",
-                "php": ">=7.2"
+                "php": ">=7.2",
+                "tarciso-torres/code-facebook-chatbot-sdk": "dev-master"
             },
             "require-dev": {
                 "phpunit/phpunit": "^8.5"
@@ -3175,7 +3176,7 @@
                     "email": "tarcisoftorres@gmail.com"
                 }
             ],
-            "time": "2019-12-14T21:18:57+00:00"
+            "time": "2019-12-20T20:43:27+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
